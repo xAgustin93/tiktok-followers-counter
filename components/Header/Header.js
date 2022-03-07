@@ -7,7 +7,7 @@ export function Header() {
   return (
     <div className={styles.content}>
       <a href="https://tincode.es/" target="_blank" rel="noopener noreferrer">
-        <Image src={logoTinCode} width={100} height={40} />
+        <Image src={logoTinCode} alt="TinCode" width={100} height={40} />
       </a>
       <h1>TikTok Followers Counter</h1>
       <a href="https://tincode.es/" target="_blank" rel="noopener noreferrer">
