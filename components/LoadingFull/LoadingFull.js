@@ -9,7 +9,7 @@ const override = css`
   border-color: red;
 `;
 
-export default function LoadingFull(props) {
+export function LoadingFull(props) {
   const { loading } = props;
 
   if (!loading) return null;

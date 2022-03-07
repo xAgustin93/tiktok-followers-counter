@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
-import UserInfo from "../components/UserInfo";
-import SearchForm from "../components/SearchForm";
-import LoadingFull from "../components/LoadingFull";
+import { Header, UserInfo, SearchForm, LoadingFull } from "../components";
 import styles from "./index.module.scss";
 
 export default function Index() {

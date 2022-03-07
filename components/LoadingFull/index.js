@@ -1,1 +1,1 @@
-export { default } from "./LoadingFull";
+export * from "./LoadingFull";

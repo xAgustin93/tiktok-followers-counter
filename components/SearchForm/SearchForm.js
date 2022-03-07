@@ -2,7 +2,7 @@ import React from "react";
 import { TextField, Button } from "@mui/material";
 import styles from "./SearchForm.module.scss";
 
-export default function SearchForm(props) {
+export function SearchForm(props) {
   const { searchUser, setSearchValue } = props;
 
   const onSearch = (e) => {

@@ -3,7 +3,7 @@ import Image from "next/image";
 import logoTinCode from "../../public/tincode-logo.svg";
 import styles from "./Header.module.scss";
 
-export default function Header() {
+export function Header() {
   return (
     <div className={styles.content}>
       <a href="https://tincode.es/" target="_blank" rel="noopener noreferrer">
