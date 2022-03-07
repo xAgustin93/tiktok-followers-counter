@@ -14,7 +14,7 @@ export function SearchForm(props) {
     <div className={styles.content}>
       <form onSubmit={onSearch}>
         <TextField
-          label="Nombre del usuari"
+          label="Nombre del usuario"
           focused
           className={styles.input}
           onChange={(e) => setSearchValue(e.target.value)}
