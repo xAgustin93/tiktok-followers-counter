@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar } from "@mui/material";
 import styles from "./UserInfo.module.scss";
-import tinCodeLogo from "../../../public/tincode.png";
+import tinCodeLogo from "../../public/tincode.png";
 
 export default function UserInfo(props) {
   const { userData } = props;

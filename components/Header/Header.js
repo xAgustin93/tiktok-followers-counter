@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logoTinCode from "../../../public/tincode-logo.svg";
+import logoTinCode from "../../public/tincode-logo.svg";
 import styles from "./Header.module.scss";
 
 export default function Header() {
